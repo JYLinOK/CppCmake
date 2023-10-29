@@ -220,6 +220,15 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 LIBRARY_OUTPUT_PATH:PATH=
 
 //Value Computed by CMake
+cppcmake123_BINARY_DIR:STATIC=/home/ydook/CODE_Cpp/CppCmake
+
+//Value Computed by CMake
+cppcmake123_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+cppcmake123_SOURCE_DIR:STATIC=/home/ydook/CODE_Cpp/CppCmake
+
+//Value Computed by CMake
 cppcmake1_BINARY_DIR:STATIC=/home/ydook/CODE_Cpp/CppCmake
 
 //Value Computed by CMake
