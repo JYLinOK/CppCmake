@@ -1,3 +1,3 @@
-/home/ydook/CODE_Cpp/CppCmake/CMakeFiles/cppcmake1.dir
-/home/ydook/CODE_Cpp/CppCmake/CMakeFiles/edit_cache.dir
-/home/ydook/CODE_Cpp/CppCmake/CMakeFiles/rebuild_cache.dir
+/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles/cppcmake.dir
+/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles/edit_cache.dir
+/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles/rebuild_cache.dir

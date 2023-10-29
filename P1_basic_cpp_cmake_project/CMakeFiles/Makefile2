@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ydook/CODE_Cpp/CppCmake
+CMAKE_SOURCE_DIR = /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ydook/CODE_Cpp/CppCmake
+CMAKE_BINARY_DIR = /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/cppcmake1.dir/clean
 CMakeFiles/cppcmake1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ydook/CODE_Cpp/CppCmake/CMakeFiles --progress-num=1,2,3 "Built target cppcmake1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles --progress-num=1,2,3 "Built target cppcmake1"
 .PHONY : CMakeFiles/cppcmake1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cppcmake1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_Cpp/CppCmake/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cppcmake1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_Cpp/CppCmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles 0
 .PHONY : CMakeFiles/cppcmake1.dir/rule
 
 # Convenience name for target.

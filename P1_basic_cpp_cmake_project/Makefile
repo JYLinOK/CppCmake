@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ydook/CODE_Cpp/CppCmake
+CMAKE_SOURCE_DIR = /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ydook/CODE_Cpp/CppCmake
+CMAKE_BINARY_DIR = /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_Cpp/CppCmake/CMakeFiles /home/ydook/CODE_Cpp/CppCmake//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_Cpp/CppCmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

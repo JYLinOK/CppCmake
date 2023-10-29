@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ydook/CODE_Cpp/CppCmake
+CMAKE_SOURCE_DIR = /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ydook/CODE_Cpp/CppCmake
+CMAKE_BINARY_DIR = /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cppcmake1.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/cppcmake1.dir/flags.make
 CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o: CMakeFiles/cppcmake1.dir/flags.make
 CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o: src/cpp1_make_a_cpp_file.cpp
 CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o: CMakeFiles/cppcmake1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ydook/CODE_Cpp/CppCmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o -MF CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o.d -o CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o -c /home/ydook/CODE_Cpp/CppCmake/src/cpp1_make_a_cpp_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o -MF CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o.d -o CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o -c /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/src/cpp1_make_a_cpp_file.cpp
 
 CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ydook/CODE_Cpp/CppCmake/src/cpp1_make_a_cpp_file.cpp > CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/src/cpp1_make_a_cpp_file.cpp > CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.i
 
 CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ydook/CODE_Cpp/CppCmake/src/cpp1_make_a_cpp_file.cpp -o CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/src/cpp1_make_a_cpp_file.cpp -o CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.s
 
 CMakeFiles/cppcmake1.dir/src/main.cpp.o: CMakeFiles/cppcmake1.dir/flags.make
 CMakeFiles/cppcmake1.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/cppcmake1.dir/src/main.cpp.o: CMakeFiles/cppcmake1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ydook/CODE_Cpp/CppCmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppcmake1.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppcmake1.dir/src/main.cpp.o -MF CMakeFiles/cppcmake1.dir/src/main.cpp.o.d -o CMakeFiles/cppcmake1.dir/src/main.cpp.o -c /home/ydook/CODE_Cpp/CppCmake/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppcmake1.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppcmake1.dir/src/main.cpp.o -MF CMakeFiles/cppcmake1.dir/src/main.cpp.o.d -o CMakeFiles/cppcmake1.dir/src/main.cpp.o -c /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/src/main.cpp
 
 CMakeFiles/cppcmake1.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppcmake1.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ydook/CODE_Cpp/CppCmake/src/main.cpp > CMakeFiles/cppcmake1.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/src/main.cpp > CMakeFiles/cppcmake1.dir/src/main.cpp.i
 
 CMakeFiles/cppcmake1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppcmake1.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ydook/CODE_Cpp/CppCmake/src/main.cpp -o CMakeFiles/cppcmake1.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/src/main.cpp -o CMakeFiles/cppcmake1.dir/src/main.cpp.s
 
 # Object files for target cppcmake1
 cppcmake1_OBJECTS = \
@@ -109,7 +109,7 @@ build/cppcmake1: CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o
 build/cppcmake1: CMakeFiles/cppcmake1.dir/src/main.cpp.o
 build/cppcmake1: CMakeFiles/cppcmake1.dir/build.make
 build/cppcmake1: CMakeFiles/cppcmake1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ydook/CODE_Cpp/CppCmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable build/cppcmake1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable build/cppcmake1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppcmake1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/cppcmake1.dir/clean:
 .PHONY : CMakeFiles/cppcmake1.dir/clean
 
 CMakeFiles/cppcmake1.dir/depend:
-	cd /home/ydook/CODE_Cpp/CppCmake && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ydook/CODE_Cpp/CppCmake /home/ydook/CODE_Cpp/CppCmake /home/ydook/CODE_Cpp/CppCmake /home/ydook/CODE_Cpp/CppCmake /home/ydook/CODE_Cpp/CppCmake/CMakeFiles/cppcmake1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/CMakeFiles/cppcmake1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cppcmake1.dir/depend
 

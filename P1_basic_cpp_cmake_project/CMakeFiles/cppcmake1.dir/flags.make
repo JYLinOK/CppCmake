@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ydook/CODE_Cpp/CppCmake/inlcude
+CXX_INCLUDES = -I/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P1_basic_cpp_cmake_project/inlcude
 
 CXX_FLAGS = 
 
