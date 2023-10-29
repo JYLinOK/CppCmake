@@ -146,4 +146,5 @@ CMakeFiles/cppcmake.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/src/../include/main.h
+ /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/src/../include/main.h \
+ /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/src/../include/ecpp.h

@@ -81,12 +81,12 @@ clean: CMakeFiles/cppcmake.dir/clean
 CMakeFiles/cppcmake.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake.dir/build.make CMakeFiles/cppcmake.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake.dir/build.make CMakeFiles/cppcmake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles --progress-num=1,2,3 "Built target cppcmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles --progress-num=1,2 "Built target cppcmake"
 .PHONY : CMakeFiles/cppcmake.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cppcmake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cppcmake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydook/CODE_CppCMake/CMakeP/CppCmake/P2_static_and_dynamic_libraries/CMakeFiles 0
 .PHONY : CMakeFiles/cppcmake.dir/rule

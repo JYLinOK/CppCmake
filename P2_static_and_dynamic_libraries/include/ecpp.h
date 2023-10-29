@@ -1,5 +1,5 @@
 #include <iostream>
-#define V_NAME(value) (#value)
+#define V_NAME(v) (#v)
 
 using namespace std;
 
@@ -9,9 +9,9 @@ void print()
 }
 
 template <typename T, typename... Targs>
-void print(T value, Targs... args)
+void print(T variable, Targs... args)
 {
-    cout << value << ' ';
+    cout << variable << ' ';
 
     if ((sizeof...(args)) > 0)
     {
@@ -32,9 +32,9 @@ void print_type()
 }
 
 template <typename T, typename... Targs>
-void print_type(T value, Targs... args)
+void print_type(T variable, Targs... args)
 {
-    cout << V_NAME << " type = " << typedef.id(value).name();
+    cout << V_NAME(variable) << " type = " << typeid(variable).name();
 
     if ((sizeof...(args)) > 0)
     {

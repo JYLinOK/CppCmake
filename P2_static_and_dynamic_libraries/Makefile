@@ -129,30 +129,6 @@ cppcmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake.dir/build.make CMakeFiles/cppcmake.dir/build
 .PHONY : cppcmake/fast
 
-src/cpp1_make_a_cpp_file.o: src/cpp1_make_a_cpp_file.cpp.o
-.PHONY : src/cpp1_make_a_cpp_file.o
-
-# target to build an object file
-src/cpp1_make_a_cpp_file.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake.dir/build.make CMakeFiles/cppcmake.dir/src/cpp1_make_a_cpp_file.cpp.o
-.PHONY : src/cpp1_make_a_cpp_file.cpp.o
-
-src/cpp1_make_a_cpp_file.i: src/cpp1_make_a_cpp_file.cpp.i
-.PHONY : src/cpp1_make_a_cpp_file.i
-
-# target to preprocess a source file
-src/cpp1_make_a_cpp_file.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake.dir/build.make CMakeFiles/cppcmake.dir/src/cpp1_make_a_cpp_file.cpp.i
-.PHONY : src/cpp1_make_a_cpp_file.cpp.i
-
-src/cpp1_make_a_cpp_file.s: src/cpp1_make_a_cpp_file.cpp.s
-.PHONY : src/cpp1_make_a_cpp_file.s
-
-# target to generate assembly for a file
-src/cpp1_make_a_cpp_file.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake.dir/build.make CMakeFiles/cppcmake.dir/src/cpp1_make_a_cpp_file.cpp.s
-.PHONY : src/cpp1_make_a_cpp_file.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppcmake"
-	@echo "... src/cpp1_make_a_cpp_file.o"
-	@echo "... src/cpp1_make_a_cpp_file.i"
-	@echo "... src/cpp1_make_a_cpp_file.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
