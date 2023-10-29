@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ydook/CODE_Cpp/CppCmake/src/cpp1_make_a_cpp_file.cpp" "CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.o" "gcc" "CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.o.d"
+  "/home/ydook/CODE_Cpp/CppCmake/src/cpp1_make_a_cpp_file.cpp" "CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o" "gcc" "CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o.d"
+  "/home/ydook/CODE_Cpp/CppCmake/src/main.cpp" "CMakeFiles/cppcmake1.dir/src/main.cpp.o" "gcc" "CMakeFiles/cppcmake1.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -129,20 +129,53 @@ cppcmake1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/build
 .PHONY : cppcmake1/fast
 
-# target to build an object file
-src/cpp1_make_a_cpp_file.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.o
+src/cpp1_make_a_cpp_file.o: src/cpp1_make_a_cpp_file.cpp.o
 .PHONY : src/cpp1_make_a_cpp_file.o
 
-# target to preprocess a source file
-src/cpp1_make_a_cpp_file.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.i
+# target to build an object file
+src/cpp1_make_a_cpp_file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.o
+.PHONY : src/cpp1_make_a_cpp_file.cpp.o
+
+src/cpp1_make_a_cpp_file.i: src/cpp1_make_a_cpp_file.cpp.i
 .PHONY : src/cpp1_make_a_cpp_file.i
 
-# target to generate assembly for a file
-src/cpp1_make_a_cpp_file.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.s
+# target to preprocess a source file
+src/cpp1_make_a_cpp_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.i
+.PHONY : src/cpp1_make_a_cpp_file.cpp.i
+
+src/cpp1_make_a_cpp_file.s: src/cpp1_make_a_cpp_file.cpp.s
 .PHONY : src/cpp1_make_a_cpp_file.s
+
+# target to generate assembly for a file
+src/cpp1_make_a_cpp_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/cpp1_make_a_cpp_file.cpp.s
+.PHONY : src/cpp1_make_a_cpp_file.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppcmake1.dir/build.make CMakeFiles/cppcmake1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -156,6 +189,9 @@ help:
 	@echo "... src/cpp1_make_a_cpp_file.o"
 	@echo "... src/cpp1_make_a_cpp_file.i"
 	@echo "... src/cpp1_make_a_cpp_file.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
